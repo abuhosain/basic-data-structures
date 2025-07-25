@@ -1,5 +1,5 @@
 /**
- * LeetCode Problem: Middle of lnked List
+ * LeetCode Problem: Middle of linked List
  */
 
 #include <cstddef>
