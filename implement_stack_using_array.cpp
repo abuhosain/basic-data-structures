@@ -21,7 +21,13 @@ public:
       }
    }
 
- 
+   int top()
+   {
+      if (!v.empty())
+      {
+         return v.back();
+      }
+      }
 };
 
 int main()
