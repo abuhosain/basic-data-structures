@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class MyStck
+class my_stack
 {
 public:
    vector<int> v;
@@ -42,6 +42,15 @@ public:
 
 int main()
 {
+   my_stack st;
+   st.push(10);
+   st.push(20);
+   st.push(30);
 
+   st.pop();
+
+   cout << st.top() << endl
+        << st.size() << endl
+        << st.empty() << endl;
    return 0;
 };
