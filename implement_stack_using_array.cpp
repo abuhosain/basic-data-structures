@@ -9,6 +9,19 @@ public:
    {
       v.push_back(val);
    }
+   void pop()
+   {
+      if (!v.empty())
+      {
+         v.pop_back();
+      }
+      else
+      {
+         cout << "Stack is empty, cannot pop." << endl;
+      }
+   }
+
+ 
 };
 
 int main()
