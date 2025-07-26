@@ -27,7 +27,12 @@ public:
       {
          return v.back();
       }
-      }
+   }
+
+   int size()
+   {
+      return v.size();
+   }
 };
 
 int main()
