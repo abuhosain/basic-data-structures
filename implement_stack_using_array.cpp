@@ -33,6 +33,11 @@ public:
    {
       return v.size();
    }
+
+   bool empty()
+   {
+      return v.empty();
+   }
 };
 
 int main()
